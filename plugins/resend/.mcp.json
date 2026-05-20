@@ -1,7 +1,0 @@
-{
-  "resend": {
-    "command": "npx",
-    "args": ["-y", "resend-mcp"],
-    "env_vars": ["RESEND_API_KEY"]
-  }
-}

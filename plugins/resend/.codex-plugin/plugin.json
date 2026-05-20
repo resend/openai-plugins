@@ -19,7 +19,6 @@
     "deliverability"
   ],
   "skills": "./skills/",
-  "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Resend",
     "shortDescription": "Send, receive, and manage email with Resend",
