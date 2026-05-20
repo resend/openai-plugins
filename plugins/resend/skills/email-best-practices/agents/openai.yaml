@@ -1,0 +1,7 @@
+interface:
+  display_name: Email Best Practices
+  short_description: Improve deliverability, compliance, and email UX
+  icon_small: ../../assets/app-icon.svg
+  icon_large: ../../assets/app-icon.svg
+  brand_color: "#000000"
+  default_prompt: Use Email Best Practices to review deliverability, compliance, capture, retries, or email type decisions.

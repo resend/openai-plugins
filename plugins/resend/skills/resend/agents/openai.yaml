@@ -1,0 +1,7 @@
+interface:
+  display_name: Resend
+  short_description: Send and manage email with Resend
+  icon_small: ../../assets/app-icon.svg
+  icon_large: ../../assets/app-icon.svg
+  brand_color: "#000000"
+  default_prompt: Use Resend to send email, inspect domains, manage templates, configure webhooks, or debug delivery issues.

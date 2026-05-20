@@ -1,0 +1,7 @@
+interface:
+  display_name: Agent Email Inbox
+  short_description: Build secure inbound email agent workflows
+  icon_small: ../../assets/app-icon.svg
+  icon_large: ../../assets/app-icon.svg
+  brand_color: "#000000"
+  default_prompt: Use Agent Email Inbox to design a secure inbound email workflow with verification, filtering, routing, and safe processing.

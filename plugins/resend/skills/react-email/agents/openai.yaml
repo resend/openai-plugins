@@ -1,0 +1,7 @@
+interface:
+  display_name: React Email
+  short_description: Build and send React email templates
+  icon_small: ../../assets/app-icon.svg
+  icon_large: ../../assets/app-icon.svg
+  brand_color: "#000000"
+  default_prompt: Use React Email to create, preview, render, and send a production-ready email template.

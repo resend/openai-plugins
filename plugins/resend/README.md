@@ -1,8 +1,8 @@
 # Resend Plugin
 
-This plugin packages Resend email workflows in `plugins/resend`.
+Use Resend in Codex to send transactional and marketing email, receive inbound email, build React Email templates, manage domains and templates, inspect delivery events, and follow deliverability best practices.
 
-It currently includes these skills:
+## Included skills
 
 - `resend`
 - `agent-email-inbox`
@@ -10,31 +10,31 @@ It currently includes these skills:
 - `react-email`
 - `email-best-practices`
 
-## What It Covers
+## What it covers
 
-- transactional email sending and template workflows with Resend
-- inbound email handling, webhook verification, and agent inbox patterns
-- React Email authoring and sending guidance
-- Resend CLI workflows for operational tasks
-- deliverability and compliance best practices
+- Send transactional and batch email with Resend
+- Receive inbound email with webhooks and safe processing patterns
+- Build and render React Email templates
+- Manage domains, templates, broadcasts, contacts, webhooks, logs, and automations
+- Improve deliverability, compliance, and sending reliability
 
-## Plugin Structure
+## Plugin structure
 
-- `.codex-plugin/plugin.json` — plugin manifest with metadata and skill discovery
-- `skills/` — the bundled Resend skill set used by Codex
-- `assets/` — plugin-level icon referenced by the manifest
+- `.codex-plugin/plugin.json` - plugin manifest with metadata and skill discovery
+- `skills/` - the bundled Resend skill set used by Codex
+- `assets/` - plugin-level icon referenced by the manifest
 
 ## Setup
 
-Bundled skills are available immediately after install. To run live Resend API workflows, set your API key in the environment where Codex runs:
+Bundled skills are available after install. For live API calls, set your API key in the environment where Codex runs:
 
 ```bash
 export RESEND_API_KEY=re_xxxxxxxxxxxxxxxxx
 ```
 
-Skills teach the agent to call the Resend API (via the SDK, CLI, or raw HTTP) using that key. No additional server or dependency needs to start.
+Codex uses that key through the Resend SDK, CLI, or API. No additional server or dependency needs to start.
 
 ## Notes
 
-- Skills-only guidance can still help even if `RESEND_API_KEY` is not set.
+- The skills can still help with planning and code review when `RESEND_API_KEY` is not set.
 - Sending, receiving, template management, and other live Resend API actions require `RESEND_API_KEY`.
