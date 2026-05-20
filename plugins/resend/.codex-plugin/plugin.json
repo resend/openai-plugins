@@ -1,7 +1,7 @@
 {
   "name": "resend",
   "version": "1.0.0",
-  "description": "Official Resend email plugin with skills for transactional sending, inbound email, templates, domains, React Email, and CLI workflows.",
+  "description": "Use Resend in Codex to send, receive, and manage email.",
   "author": {
     "name": "Resend",
     "email": "support@resend.com",
@@ -22,7 +22,7 @@
   "interface": {
     "displayName": "Resend",
     "shortDescription": "Send, receive, and manage email with Resend",
-    "longDescription": "Bring Resend email workflows into Codex with official skills for transactional and marketing sending, inbound email and agent inboxes, template and domain management, React Email authoring, CLI operations, and deliverability best practices. Skills teach the agent to call the Resend API directly using your `RESEND_API_KEY` from the environment.",
+    "longDescription": "Use Resend in Codex to send transactional and marketing email, receive inbound email, build React Email templates, manage domains and templates, inspect delivery events, and follow deliverability best practices. Codex uses RESEND_API_KEY for live API calls.",
     "developerName": "Resend",
     "category": "Productivity",
     "capabilities": [
@@ -33,9 +33,10 @@
     "privacyPolicyURL": "https://resend.com/legal/privacy-policy",
     "termsOfServiceURL": "https://resend.com/legal/terms-of-service",
     "defaultPrompt": [
-      "Draft and send a transactional email with Resend",
-      "Set up an inbound email webhook and agent inbox with Resend",
-      "Draft a marketing broadcast"
+      "Send a transactional email with Resend",
+      "Set up inbound email with Resend webhooks",
+      "Build a React Email template",
+      "Debug email deliverability"
     ],
     "brandColor": "#000000",
     "composerIcon": "./assets/app-icon.svg",
