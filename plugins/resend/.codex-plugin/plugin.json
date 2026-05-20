@@ -19,6 +19,7 @@
     "deliverability"
   ],
   "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Resend",
     "shortDescription": "Send, receive, and manage email with Resend",
@@ -37,7 +38,7 @@
       "Set up an inbound email webhook and agent inbox with Resend",
       "Draft a marketing broadcast"
     ],
-    "brandColor": "#111111",
+    "brandColor": "#000000",
     "composerIcon": "./assets/app-icon.svg",
     "logo": "./assets/app-icon.svg",
     "screenshots": []

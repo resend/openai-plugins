@@ -1,0 +1,7 @@
+interface:
+  display_name: Resend CLI
+  short_description: Run Resend CLI workflows safely
+  icon_small: ../../assets/app-icon.svg
+  icon_large: ../../assets/app-icon.svg
+  brand_color: "#000000"
+  default_prompt: Use Resend CLI to inspect or manage domains, emails, broadcasts, contacts, webhooks, logs, and automations.
