@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "resend": {
+      "type": "http",
+      "url": "https://mcp.resend.com",
+      "headers": {
+        "Authorization": "Bearer ${RESEND_API_KEY}"
+      }
+    }
+  }
+}
