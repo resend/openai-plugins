@@ -1,6 +1,6 @@
 {
   "name": "resend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use Resend in Codex to send, receive, and manage email.",
   "author": {
     "name": "Resend",
@@ -19,6 +19,7 @@
     "deliverability"
   ],
   "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Resend",
     "shortDescription": "Send, receive, and manage email with Resend",
